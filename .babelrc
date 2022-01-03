@@ -1,0 +1,17 @@
+{
+	"presets": [
+		"@babel/preset-env"
+	],
+	"retainLines": true,
+	"ignore": [
+		"./node_modules/**/*"
+	],
+	"plugins": [
+		["@babel/plugin-transform-arrow-functions", {
+			"spec": true
+		}],
+		["transform-es2015-for-of", {
+			"loose": true
+		}]
+	]
+}

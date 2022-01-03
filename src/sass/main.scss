@@ -1,0 +1,27 @@
+// CAMINHO PARA DIRETORIOS DO FONTAWESOME
+$fa-font-path: "../fonts/fontawesome";
+
+// VENDORS
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@import "../../node_modules/animate.css/animate.min";
+
+// FONTS
+@import "_fonts";
+
+// LOCAL VARIABELS
+@import "_variables";
+
+// COMPONENTS EXTRAS
+@import "components/_input_range";
+
+// MIXINS
+@import "_mixins";
+
+// GENERAL STRUCTURE
+@import "_general";
+
+// APP
+@import "_app";
